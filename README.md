@@ -1,3 +1,5 @@
+## Welcome to the official documentation for DMHub!
+
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
