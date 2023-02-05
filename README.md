@@ -1,53 +1,24 @@
 ## Welcome to the official documentation for DMHub!
 
-# just-the-docs-template
+# How to Use
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+First off, this documentation uses the [Just the Docs] template for Jekyll. If you're unfamiliar with Jekyll and static site generation, it is **strongly recommended** that you first go to [their website] to learn more about it.
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+Next, once you have a local copy of the repo, you will be working out of two folders in the root directory: `assets\` and `docs\`.
 
-More specifically, the created site:
+`assets\` is self explanatory, and will contain any images or other such media you may add. `docs\` contains all of our documentation, sorted by category:
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+- Basics: For basic operations like keyboard shortcuts.
+- User Manual: A comprehensive high-level section for various parts of DMHub.
+- Goblin Script: For matters pertaining to Goblin Script and its use.
+- Lua: Pertaining to DMHub's interface customization and API.
+- Tutorials: For guides on specific, popular processes handled by DMHub, i.e. "How to make Perfect Stairs".
+- Resources: Help, FAQs, external tools, links, et cetera.
 
-To get started with creating a site, just click "[use this template]"!
+Note that files in each folder have a specific naming scheme to keep things tidy. 
 
-After completing the creation of your new site on GitHub, update it as needed:
+This readme will be updated once more style guidelines have been hammered down.
 
-## Replace the content of the template pages
-
-Update the following files to your own content:
-
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
-
-## Changing the version of the theme and/or Jekyll
-
-Simply edit the relevant line(s) in the `Gemfile`.
-
-## Adding a plugin
-
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
-
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
-
-- Add the following to your site's `Gemfile`:
-
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
-
-- And add the following to your site's `_config.yml`:
-
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
-
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
 
 ## Publishing your site on GitHub Pages
 
@@ -86,12 +57,6 @@ Assuming [Jekyll] and [Bundler] are installed on your computer:
 
 Just upload all the files in the directory `_site`.
 
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
 ## Licensing and Attribution
 
 This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
@@ -107,9 +72,9 @@ The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party 
 [GitHub Pages]: https://docs.github.com/en/pages
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
 [`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
 [`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
 [MIT License]: https://en.wikipedia.org/wiki/MIT_License
 [starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
 [actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+[their website]: https://jekyllrb.com/docs/ 

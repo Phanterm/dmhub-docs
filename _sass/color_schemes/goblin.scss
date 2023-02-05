@@ -1,0 +1,37 @@
+@import "./color_schemes/dark";
+
+$goblin-gold: #e3cfa4;
+$goblin-blue: #0e1015;
+$goblin-border: #635d4f;
+
+$body-background-color: $goblin-blue;
+$sidebar-color: $grey-dk-300;
+$border-color: $goblin-border;
+$body-text-color: #ffffff;
+$body-heading-color: $goblin-gold;
+$nav-child-link-color: $grey-dk-000;
+$search-result-preview-color: $grey-dk-000;
+$link-color: $goblin-gold;
+$btn-primary-color: $blue-200;
+$base-button-color: $grey-dk-250;
+$search-background-color: $grey-dk-250;
+$table-background-color: $grey-dk-250;
+$feedback-color: darken($sidebar-color, 3%);
+
+
+// @import "./vendor/OneDarkJekyll/syntax-one-dark";
+// $code-background-color: #282c34; // OneDarkJekyll default for syntax-one-dark
+// $code-linenumber-color: #abb2bf; // OneDarkJekyll .nf for syntax-one-dark
+
+@import "./vendor/OneDarkJekyll/syntax-one-dark-vivid";
+
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+
+// @import "./vendor/OneDarkJekyll/syntax-firewatch";
+// $code-background-color: #282c34; // OneDarkJekyll default for syntax-firewatch
+// $code-linenumber-color: #abb2bf; // OneDarkJekyll .nf for syntax-firewatch
+
+// @import "./vendor/OneDarkJekyll/syntax-firewatch-green";
+// $code-background-color: #282c34; // OneDarkJekyll default for syntax-firewatch-green
+// $code-linenumber-color: #abb2bf; // OneDarkJekyll .nf for syntax-firewatch-green

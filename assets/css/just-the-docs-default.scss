@@ -1,0 +1,98 @@
+---
+---
+{% if site.color_scheme and site.color_scheme != "nil" %}
+  {% assign color_scheme = site.color_scheme %}
+{% else %}
+  {% assign color_scheme = "light" %}
+{% endif %}
+{% include css/just-the-docs.scss.liquid color_scheme=color_scheme %}
+
+// Typography
+
+@font-face {
+  font-family: "Lato";
+  src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("/assets/fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-Italic";
+  src: url("/assets/fonts/Lato-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato-BoldItalic";
+  src: url("/assets/fonts/Lato-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("/assets/fonts/Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-LightItalic";
+  src: url("/assets/fonts/Lato-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato-Thin";
+  src: url("/assets/fonts/Lato-Thin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-ThinItalic";
+  src: url("/assets/fonts/Lato-ThinItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url("/assets/fonts/Lato-Black.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-BlackItalic";
+  src: url("/assets/fonts/Lato-BlackItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato-Light", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+body {
+	font-family: "Lato-Regular", sans-serif !important;
+}
+
+side-bar {
+	font-family: "Lato-Black", sans-serif !important;
+}
+
+// Colors
+$goblin-gold: #e3cfa4;
+$goblin-blue: #0e1015;
+$goblin-border: #635d4f;
