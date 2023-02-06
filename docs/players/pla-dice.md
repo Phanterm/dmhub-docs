@@ -1,7 +1,7 @@
 ---
 title: Dice Rolling
 layout: home
-parent: Basics
+parent: Players & DMs
 nav_order: 1
 ---
 
