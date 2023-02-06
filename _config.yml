@@ -5,6 +5,25 @@ color_scheme: "goblin"
 favicon_ico: "/assets/images/favicon.ico"
 logo: "/assets/images/logo.png"
 
+markdown: kramdown
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+
+  important:
+    title: Important
+    color: yellow
+
+  note:
+    title: Note
+    color: purple
+
+  tip:
+    title: Tip!
+    color: green
+
 url: https://just-the-docs.github.io
 
 aux_links:
