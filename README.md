@@ -6,13 +6,13 @@ First off, this documentation uses the [Just the Docs] template for Jekyll. If y
 
 Next, once you have a local copy of the repo, you will be working out of two folders in the root directory: `assets\` and `docs\`.
 
-`assets\` is self explanatory, and will contain any images or other such media you may add. `docs\` contains all of our documentation, sorted by category:
+`assets\` is self explanatory, and will contain any images or other such media you may add. `docs\` contains all of our documentation, sorted by category and subcategory:
 
 - Basics: For basic operations like keyboard shortcuts.
-- User Manual: A comprehensive high-level section for various parts of DMHub.
-- Goblin Script: For matters pertaining to Goblin Script and its use.
-- Lua: Pertaining to DMHub's interface customization and API.
 - Tutorials: For guides on specific, popular processes handled by DMHub, i.e. "How to make Perfect Stairs".
+- Players & DMs: A comprehensive high-level section for various parts of DMHub. For players and DMs.
+- Authors: Pertaining to map editing, high-level compendium work, and asset creation. For artists, writers, and media content creators.
+- Developers: Pertaining to DMHub's interface customization and API. For modders and programmers.
 - Resources: Help, FAQs, external tools, links, et cetera.
 
 Note that files in each folder have a specific naming scheme to keep things tidy. 
