@@ -92,6 +92,167 @@ side-bar {
 	font-family: "Lato-Black", sans-serif !important;
 }
 
+p.warning::before {
+  content: "Warning!";
+  background-image: url(/assets/images/gob_angry.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #f2b7b7;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+blockquote.warning::before {
+  content: "Warning!";
+  background-image: url(/assets/images/gob_angry.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #f2b7b7;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+p.important::before {
+  content: "Important";
+  background-image: url(/assets/images/gob_cry.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #f2edb7;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+blockquote.important::before {
+  content: "Important";
+  background-image: url(/assets/images/gob_cry.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #f2edb7;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+p.note::before {
+  background-image: url(/assets/images/gob_plead.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #c9b7f2;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+blockquote.note::before {
+  background-image: url(/assets/images/gob_plead.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #c9b7f2;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+blockquote.note::before {
+  background-image: url(/assets/images/gob_plead.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #c9b7f2;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+p.tip::before {
+  content: "Tip!";
+  background-image: url(/assets/images/gob_kiss.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #b9f2b7;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+blockquote.tip::before {
+  content: "Tip!";
+  background-image: url(/assets/images/gob_kiss.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: #b9f2b7;
+  padding-left: 48px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.side-bar { z-index: 0; display: flex; flex-wrap: wrap; background-color: #27262b; }
+
 // Colors
 $goblin-gold: #e3cfa4;
 $goblin-blue: #0e1015;
