@@ -11,13 +11,11 @@ Next, once you have a local copy of the repo, you will be working out of two fol
 - Basics: For basic operations like keyboard shortcuts.
 - Tutorials: For guides on specific, popular processes handled by DMHub, i.e. "How to make Perfect Stairs".
 - Players & DMs: A comprehensive high-level section for various parts of DMHub. For players and DMs.
-- Authors: Pertaining to map editing, high-level compendium work, and asset creation. For artists, writers, and media content creators.
-- Developers: Pertaining to DMHub's interface customization and API. For modders and programmers.
-- Resources: Help, FAQs, external tools, links, et cetera.
+- Building in DMHub: Pertaining to map editing, high-level compendium work, and asset creation. For artists, writers, and media content creators.
+- Development: Pertaining to DMHub's interface customization and API. For modders and programmers.
+- Resources: Help, FAQs, tools, links, et cetera.
 
 Note that files in each folder have a specific naming scheme to keep things tidy. 
-
-This readme will be updated once more style guidelines have been hammered down.
 
 
 ## Publishing your site on GitHub Pages
@@ -52,6 +50,8 @@ Assuming [Jekyll] and [Bundler] are installed on your computer:
 3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
 
     The built site is stored in the directory `_site`.
+
+**NOTE:** If you modify `_config.yml` for any reason, you may need to rebuild the site manually before your changes will take effect.
 
 ## Publishing your built site on a different platform
 

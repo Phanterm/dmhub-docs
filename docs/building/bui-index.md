@@ -1,7 +1,6 @@
 ---
-title: Map Editing
+title: Building in DMHub
 layout: home
-parent: Authors
 has_children: true
 nav_order: 5
 ---

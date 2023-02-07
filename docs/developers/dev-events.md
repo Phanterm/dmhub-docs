@@ -1,8 +1,8 @@
 ---
 title: Events
 layout: home
-parent: Developers
-nav_order: 2
+parent: Development
+nav_order: 5
 ---
 
 # Lua gui Events

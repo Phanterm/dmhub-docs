@@ -1,8 +1,8 @@
 ---
 title: Overview
 layout: home
-parent: Developers
-nav_order: 2
+parent: Development
+nav_order: 1
 ---
 
 # Overview

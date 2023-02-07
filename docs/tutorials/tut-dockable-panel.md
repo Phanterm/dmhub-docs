@@ -16,7 +16,7 @@ A Dockable Panel is a panel which can be added to the docks and remain permanent
 
 ## Registering a Panel
 
-A dockable panel can be registered with DMHub by using the DockablePanel.Register function. A "Hello world" dockable panel looks like this:
+A dockable panel can be registered with DMHub by using the `DockablePanel.Register` function. A "Hello world" dockable panel looks like this:
 
 ```
 DockablePanel.Register{
@@ -37,7 +37,7 @@ This produces a basic panel like this:
 
 ![A hello world panel](https://cdn.discordapp.com/attachments/735956151547592804/995897817128255589/unknown.png)
 
-The DockablePanel.Register function accepts a number of additional optional parameters:
+The `DockablePanel.Register` function accepts a number of additional optional parameters:
 
  - `dmonly` (boolean): if true, only the DM can access this panel.
  - `icon` (string): the icon to show in the menu for the panel. This will normally be given in the form `mod.images.iconid` where `iconid` is the name you gave the icon in your mod's Images tab within the compendium.

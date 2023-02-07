@@ -44,17 +44,17 @@ nav_order: 2
 
 ## Map Editor Keyboard Shortcuts
 
-| Key        | Function          |
-|:-------------|:------------------|
-|  `Alt`  | Toggles erasing while held down when drawing buildings or terrain.|
-|`Ctrl`| Toggles grid snapping while held down when drawing buildings.|
-|`Shift`| Toggles on the "eye dropper" tool which lets you pick selected wall, floor, or terrain.|
-|`Shift` *(Using Ellipse Tool)*| Forces the ellipse to be a circle.|
-|`Shift` *(Using Shape Tool)*| Forces lines to draw at fixed angles.|
-|`[`,`]` *(Using Brush Tool)*| Increase/Decrease current brush size.|
-|`r` *(Object Mode)*| Slightly randomizes rotation, scale (size) of objects you are currently placing. If you have multiple objects selected in the palette, this function will randomize the active object that will be placed. *(For example, if you select six different rocks from the palette and press 'r' after placing one, this is very useful for placing a bunch of random rocks.)*|
-|`Ctrl+[`,`Ctrl+]`*(Object Mode)*| Move the selected object to the top or bottom compared to other objects overlapping it.|
-|`Alt`+`mousewheel` *(Object Mode)*| Move between selected objects in the object panel.|
-|`Shift`+`mousewheel` *(Object Mode)*| Rotate active object.|
-|`Ctrl`+`mousewheel` *(Object Mode)*| Scale active object.|
-|`F6`| While held, stops animated objects from moving at their origin. This is useful for easily selecting animated objects.|
+| Key        | Modes | Function          |
+|:-------------|:---------------|:------------------|
+|  `Alt`  | Terrain, Building, Effects | Toggles erasing while held down when drawing buildings or terrain.|
+|`Ctrl`| Terrain, Building, Effects |Toggles grid snapping while held down when drawing buildings.|
+|`Shift`| Terrain, Building, Effects |Toggles on the "eye dropper" tool which lets you pick selected wall, floor, or terrain.|
+|`Shift` | Ellipse Tool | Forces the ellipse to be a circle.|
+|`Shift` | Shape Tool | Forces lines to draw at fixed angles.|
+|`[`,`]` | Brush Tool | Increase/Decrease current brush size.|
+|`r` | Objects | Slightly randomizes rotation, scale (size) of objects you are currently placing. If you have multiple objects selected in the palette, this function will randomize the active object that will be placed. *(For example, if you select six different rocks from the palette and press 'r' after placing one, this is very useful for placing a bunch of random rocks.)*|
+|`Ctrl+[`,`Ctrl+]` | Objects | Move the selected object to the top or bottom compared to other objects overlapping it.|
+|`Alt`+`mousewheel` | Objects | Move between selected objects in the object panel.|
+|`Shift`+`mousewheel` | Objects | Rotate active object.|
+|`Ctrl`+`mousewheel` | Objects | Scale active object.|
+|`F6`|  | While held, stops animated objects from moving at their origin. This is useful for easily selecting animated objects.|

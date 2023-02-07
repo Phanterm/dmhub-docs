@@ -11,22 +11,24 @@ Welcome to the official documentation for [DMHub]! DMHub is a powerful virtual t
 Whether you're a new user just getting started, or an experienced dungeon master looking to take advantage of its advanced features, this documentation is designed to allow you to quickly search for and find the answers you need to get the most out of DMHub.
 
 # How to Use
+There are many types of DMHub users, each with their own needs when it comes to learning how to best make use of the application. This documentation is split into several sections, each put in place in order to help anyone find what they're looking for: 
 
-This documentation is split into three main sections: the User Manual, Goblin Script, and Lua.
+## Basics
+Are you brand new, or maybe it's just been a while? The Basics section contains everything you need to know about getting started with DMHub, including hotkeys, the module system, and other high-level explanations for the application's core features.
 
-## User Manual 
-The Manual section contains everything you need to know about using DMHub's main features, including hotkeys, map editing, object creation, importing maps, and more.
+## Tutorials
+As users become more familiar with DMHub, there may be specific tricks or processes which become popular. This section is where one can find tutorials and instructions on how to do specific actions which use DMHub. For example, how does a modder create a basic dockable panel? How do you make stairs that work perfectly? What are the best rules to follow when adding lights to your map? And so on.
 
-There will also be a special section for Guides, which contain tutorials and instructions on how to do specific, common actions in DMHub.
+## Players & DMs
+Whether you're a full-time player or a DM who just wants to run games, this is the section for you! Here is where you can find all of the how-tos of playing and running a game in DMHub.
 
-## Goblin Script
-The Goblin Script section is all about DMHub's simple formula system, designed to make creating actions, spells, and other interactions easy for DMs. Although it doesn't require programming knowledge, it's flexible enough that it requires a good amount of documentation and reference.
+## Development
+For programmers and modders. This section covers DMHub's custom Lua-based API, which powers everything from the interface to custom rule settings. You'll find information about the REST API here as well, which allows you to query a DMHub game for information.
 
-## Lua
-The Lua section covers DMHub's custom Lua-based API, which powers everything from the interface to custom rule settings. You'll find information on the REST API here as well, which allows you to query a DMHub game for information.
+## Resources
+FAQs, Troubleshooting, and other relevant information that does not belong elsewhere.
 
 # Contribute
-
 Please note that this documentation is an ongoing collaboration between the developers and the community; we encourage anyone who is interested in contributing to do so! Documentation is an essential part of DMHub and its community. By contributing to it, you not only make things easier for yourself, but also open up opportunities for others to innovate and create something beyond your imagination. Just think about the kind of experiences DMs and players can have when there's a dragon's hoard of knowledge available to make it as good as it can be! 
 
 If you're interested in being a part of this, join our [Discord] community and we'll guide you through the process of getting started.

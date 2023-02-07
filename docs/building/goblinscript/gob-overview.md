@@ -2,7 +2,7 @@
 title: Overview
 layout: home
 parent: Goblin Script
-grand_parent: Authors
+grand_parent: Building in DMHub
 nav_order: 1
 ---
 

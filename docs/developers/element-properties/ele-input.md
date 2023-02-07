@@ -2,7 +2,7 @@
 title: gui.Input
 layout: home
 parent: Element Properties
-grand_parent: Developers
+grand_parent: Development
 has_children: true
 nav_order: 2
 ---
