@@ -1,6 +1,6 @@
 ---
-title: Importing a Map
+title: Character Panel
 layout: home
 parent: Players & DMs
-nav_order: 4
+nav_order: 3
 ---

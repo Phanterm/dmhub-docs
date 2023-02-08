@@ -9,9 +9,9 @@ nav_order: 1
 
 The Lua Gui system is DMHub's system for developing user interface elements. The entire user interface of DMHub is built using this system.
 
-DMHub's Guis are made up of **User Interface Elements** often just called **Elements**. Elements are organized in a hierarchy, nesting inside each other. When you want to add a user interface component to DMHub, such as [[Dockable Panels]] you will have to write a function that returns a User Interface Element, usually this parent element will have many other Elements nested inside it. Elements always occupy a rectangular area, though may be styled to appear non-rectangular to users.
+DMHub's Guis are made up of **User Interface Elements** often just called **Elements**. Elements are organized in a hierarchy, nesting inside each other. When you want to add a user interface component to DMHub, such as [Dockable Panels] you will have to write a function that returns a User Interface Element, usually this parent element will have many other Elements nested inside it. Elements always occupy a rectangular area, though may be styled to appear non-rectangular to users.
 
-*Note: Examples on this page will include only the code for creating user interface elements. For the surrounding code to register a user interface, see the [[Dockable Panels]] page to be able to use the examples for yourself.*
+*Note: Examples on this page will include only the code for creating user interface elements. For the surrounding code to register a user interface, see the [Dockable Panels] page to be able to use the examples for yourself.*
 
 ## Starting Example
 
@@ -167,3 +167,5 @@ return gui.Panel{
 ```
 
 Note how when firing the event you provide the name of the event to fire and any parameters you want. When handling an event, the element is always provided as the first parameter, and then the rest of the parameters that were sent when firing the event.
+
+[Dockable Panels]: /docs/tutorials/tut-dockable-panel.html

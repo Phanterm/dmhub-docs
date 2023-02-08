@@ -17,15 +17,15 @@ A bot can access a DMHub game's information if it has the invitation code to the
 
 The most basic query is to get a list of characters in a game and basic information about them. We just need to provide the gameid of the game:
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf``
 
 The `pretty` parameter can be used to give formatted results to make it easier for a human to understand:
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&pretty=true
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&pretty=true``
 
 With a character's ID, you can get detailed information about the character. To do this, set a `type` parameter to `character`, then the `id` equal to the character's key:
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=character&id=8db03e11-1cf9-4cf6-bd16-72adbcf816b7&pretty=true
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=character&id=8db03e11-1cf9-4cf6-bd16-72adbcf816b7&pretty=true``
 
 Note that a character's data will include a lot of references to other objects, in the form of ID's. You can query these objects. For instance, consider the classes section:
 
@@ -40,29 +40,29 @@ Note that a character's data will include a lot of references to other objects, 
 
 You can query information about the class by setting `type` to `class` and then using the classid you see here as the id:
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=class&id=a95d3b62-1ee8-46cb-bcb4-f5716cf47116&pretty=true
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=class&id=a95d3b62-1ee8-46cb-bcb4-f5716cf47116&pretty=true``
 
 Likewise, you can query information about the type of currency a character is holding:
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=currency&id=abddfb45-e61f-4bfd-aee7-a07cba596aa9&pretty=true
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=currency&id=abddfb45-e61f-4bfd-aee7-a07cba596aa9&pretty=true``
 
 ## Data Tables
 
-You can find the available types of data using this query: https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=objects&pretty=true
+You can find the available types of data using this query: ``https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=objects&pretty=true``
 
 You can query all available objects of a given type easily. For instance, you can get all currencies in DMHub like this:
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=currency&pretty=true
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=currency&pretty=true``
 
 You don't have to specify a game id when querying objects like this, however if you do specify a game id the result set will include custom/homebrew objects in that game. For instance, to query currencies including custom currencies added in a game:
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=currency&pretty=true
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=currency&pretty=true``
 
 You can do a similar query for any type of object. For instance,
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=class&pretty=true
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=race&pretty=true
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=item&pretty=true
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=class&pretty=true``
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=race&pretty=true``
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?type=item&pretty=true``
 
 
 ## Calculating a Character's Information
@@ -88,7 +88,7 @@ It is possible, though, to calculate the correct stats from the data the API mak
 
 ## Choices
 
-Sometimes a character feature entails a choice of several possible sub-features to use. e.g. from https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=race&id=25d73c11-9d8e-4bea-a63e-07589f6e9f48&pretty=true there is this section:
+Sometimes a character feature entails a choice of several possible sub-features to use. e.g. from ``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=race&id=25d73c11-9d8e-4bea-a63e-07589f6e9f48&pretty=true`` there is this section:
 
 ```      {
         "allowDuplicateChoices": true,
@@ -142,7 +142,7 @@ Sometimes a character feature entails a choice of several possible sub-features 
       },
 ```
 
-Note that this choice has an id ("guid"), and each option within it has an id ("guid"). When we encounter a choice like this in a character's feature selection, we can refer back to the character data (e.g. https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=character&id=8db03e11-1cf9-4cf6-bd16-72adbcf816b7&pretty=true ) and look at the `levelChoices` field:
+Note that this choice has an id ("guid"), and each option within it has an id ("guid"). When we encounter a choice like this in a character's feature selection, we can refer back to the character data (e.g. ``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&type=character&id=8db03e11-1cf9-4cf6-bd16-72adbcf816b7&pretty=true`` ) and look at the `levelChoices` field:
 
 ```
 "levelChoices": {
@@ -175,6 +175,6 @@ We will see here that when confronted with the attribute choice from the race (i
 
 Images or icons are referenced at various places for portraits of characters, images of icons, and so forth. An image can be looked up using a url like this:
 
-https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&pretty=false&type=image&id=43ce7308-9074-4d5b-a1e7-d52812839351
+``https://us-central1-dmtool-cad62.cloudfunctions.net/query?gameid=LittleEpicTemperamentalElf&pretty=false&type=image&id=43ce7308-9074-4d5b-a1e7-d52812839351``
 
 This will provide a url that can be used to get the actual image data (png or jpeg).

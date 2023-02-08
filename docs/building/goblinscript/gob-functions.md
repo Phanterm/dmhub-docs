@@ -2,7 +2,7 @@
 title: Functions
 layout: home
 parent: Goblin Script
-grand_parent: Building in DMHub
+grand_parent: Creating in DMHub
 nav_order: 2
 ---
 
