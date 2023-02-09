@@ -12,4 +12,4 @@ nav_order: 20
 Objects with this property snap into walls. They block movement but
 light passes through them freely.
 
--   Opened
+####  Opened

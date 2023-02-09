@@ -12,6 +12,8 @@ nav_order: 2
 Objects with this property allow properties to change over time or based
 on another property.
 
--   Input
+{% video obj-animation-example.mp4 width=560 height=315 %}
 
--   Output
+####  Input
+
+####  Output

@@ -20,7 +20,7 @@ image asset, not unlike a terrain. The second allows the use of objects
 in order to create the effect image.
 
 
-<!-- <img src="Images/effect-horror-1.png" style="width:30em" /> -->
+![Clipboard Panel](map-effects-bones.png){: width="50%" height="50%"}
 
 
 ## Image Effect Brushes
@@ -45,8 +45,6 @@ opacity. Otherwise it's drawn at 0%.
 
 ## Object Effect Brushes
 
-<!--l0.52 ![image](Images/effect-object.png){width="52%"}-->
-
 In DMHub, any images you upload as objects may be used to create unique
 effect brushes. Click on the **+** symbol with the brush icon in the
 corner to open the object brush configuration menu. From here, you can
@@ -66,45 +64,44 @@ The remaining settings can be set individually for every object in the
 effect, allowing you to have a great deal of control over the sorts of
 effects you can create.
 
-### Frequency
+![Clipboard Panel](map-effects-properties.png){: width="50%" height="50%"}
+
+#### Frequency
 
 Adjust how often the selected object will appear in the effect.
 
-### Base Scale
+#### Base Scale
 
 Sets the starting size for the selected object.
 
-### Random Scale
+#### Random Scale
 
 Randomizes the size for each instance of the selected object from its
 base value.
 
-### Random Rotation
+#### Random Rotation
 
 Randomizes the rotation for each instance of the selected object.
 
-### Random Hue
+#### Random Hue
 
 Randomizes the hue for each instance of the selected object.
 
-### Random Saturation
+#### Random Saturation
 
 Randomizes the saturation value for each instance of the selected
 object.
 
-### Random Brightness
+#### Random Brightness
 
 Randomizes the brightness value for each instance of the selected
 object.
 
-### Height
+#### Height
 
 Sets the base height for the selected object.
 
-### Random Height
+#### Random Height
 
 Randomizes the height for each instance of the selected object from its
 base value.
-
-
-<!-- <img src="Images/effect-horror-2.png" style="width:32em" /> -->

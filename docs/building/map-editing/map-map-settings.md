@@ -8,6 +8,8 @@ nav_order: 1
 
 # Map Settings
 
+![Map Settings](map-map-settings-pathfinding.png){: width="50%" height="50%"}
+
 To access map settings, click on **Windows** -> **Map Settings**. Unlike Editor Settings, these
 settings are per-map, and will have to be set accordingly each time you
 navigate to a different one.

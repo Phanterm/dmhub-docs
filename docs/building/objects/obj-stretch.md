@@ -11,9 +11,9 @@ nav_order: 16
 
 Stretches this object's appearance.
 
--   Height
+####  Height
 
--   Width
+####  Width
 
 {: .important }
 This property will only stretch the *appearance* of the object. Any collision data or other information will remain the same.

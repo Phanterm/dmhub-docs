@@ -7,16 +7,18 @@ has_children: true
 nav_order: 6
 ---
 
+![Darkness](obj-darkness-example.png){: width="50%" height="50%"}
+
 # Darkness
 
 Objects with this property emit magical darkness.
 
--   Color
+####  Color
 
--   Intensity
+####  Intensity
 
--   Radius
+####  Radius
 
--   Falloff
+####  Falloff
 
--   Shadow Softness
+####  Shadow Softness

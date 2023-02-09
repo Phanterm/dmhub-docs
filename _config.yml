@@ -5,6 +5,9 @@ color_scheme: "goblin"
 favicon_ico: "/assets/images/favicon.ico"
 logo: "/assets/images/logo.png"
 
+plugins: 
+    - jekyll_video_tag
+
 markdown: kramdown
 
 callouts:

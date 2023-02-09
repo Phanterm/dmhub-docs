@@ -11,12 +11,12 @@ nav_order: 9
 
 This object contains items which can be looted by players.
 
--   Locked
+####  Locked
 
--   Destroy on Empty
+####  Destroy on Empty
 
--   Shop
+####  Shop
 
--   Instant Loot
+####  Instant Loot
 
--   Edit Loot
+####  Edit Loot

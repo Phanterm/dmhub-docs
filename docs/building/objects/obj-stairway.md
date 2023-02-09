@@ -12,10 +12,10 @@ nav_order: 15
 This object provides passage between floors. The top of the object moves
 to the next floor.
 
--   Cut Out Hole
+####  Cut Out Hole
 
--   Block Vision From Back
+####  Block Vision From Back
 
--   Light Radius
+####  Light Radius
 
--   Light Intensity
+####  Light Intensity

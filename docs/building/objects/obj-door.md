@@ -1,5 +1,5 @@
 ---
-title: Core Property
+title: Door Property
 layout: home
 parent: Objects Panel
 grand_parent: Creating in DMHub
@@ -12,8 +12,8 @@ nav_order: 7
 Objects with this property snap into walls. They block light and
 movement but may be opened to allow movement through them.
 
--   Open Rotation
+####  Open Rotation
 
--   Locked
+####  Locked
 
--   Opened
+####  Opened

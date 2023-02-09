@@ -8,6 +8,8 @@ nav_order: 2
 
 # Drawing Tools
 
+![Tools](map-drawing-tools.png){: width="50%" height="50%"}
+
 There are several tools at your disposal for drawing in DMHub,
 located at the top of map editing panels like [Terrain], [Building], and [Effects]:
 
@@ -42,14 +44,13 @@ them out.
 The ideal tool for blending terrain and applying patterns using custom
 alpha-based brush images.
 
+{: .note }
+When drawing Effects, only the Brush Tool may be used.
+
 ### Picker
 
 Use this tool to click on a surface, grabbing the swatch data and
 applying it to your cursor the next time you would draw.
-
-<!-- <!-- <img src="Images/terrain.png" style="width:24em" /> -->
-
-<!-- <!-- <img src="Images/tools.png" style="width:30em" /> -->
 
 All but the brush tool has a setting for **Fade Edges**, which allow you to soften your shapes if you find the default look too jagged. You can also **Lock Opacity** to prevent drawing on the alpha (transparency) channel, and toggle the **Eraser**.
 
@@ -65,7 +66,7 @@ Buildings are always drawn with hard edges, and so cannot be blended or softened
 
 To create a new brush, click on the **+** icon at the end of the brush list. To edit an existing brush, right-click on it and select **Edit Brush** . This will bring up the **Brush Properties** window.
 
-<!-- <!-- <img src="Images/brush-default.png" style="width:30em" /> -->
+![Brushes](map-drawing-brush.png){: width="50%" height="50%"}
 
 Each brush property can be exposed on their associated panels by clicking on
 the eye icon, allowing you to adjust them on the fly. If you're a tablet
@@ -130,7 +131,10 @@ When drawing buildings, texture masks only apply to the outlines of the brush ar
 
 Allows you to shrink or enlarge the scale of the texture mask.
 
-<!-- <!-- <img src="Images/brush-dunes.png" style="width:40em" /> -->
+
+![Texture Brushes](map-drawing-properties.png){: width="50%" height="50%"} 
+![Texture Brushes](map-drawing-spindle.png){: width="50%" height="50%"}
+
 
 [Terrain]: map-terrain.html
 [Building]: map-building.html

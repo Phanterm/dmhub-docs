@@ -7,28 +7,30 @@ has_children: true
 nav_order: 11
 ---
 
+{% video obj-path-example.mp4 width=560 height=315 %}
+
 # Path Animation
 
 Objects with this property move along a path you specify.
 
--   Paths
+####  Paths
 
--   Random Merge
+####  Random Merge
 
--   Move Type
+####  Move Type
 
--   Duration
+####  Duration
 
--   Delay
+####  Delay
 
--   Scale
+####  Scale
 
--   Pause
+####  Pause
 
--   Repeat Path
+####  Repeat Path
 
--   Rotate Object
+####  Rotate Object
 
--   Rotate Speed
+####  Rotate Speed
 
--   Projectile Test
+####  Projectile Test

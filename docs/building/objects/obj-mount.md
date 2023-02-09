@@ -7,11 +7,13 @@ has_children: true
 nav_order: 10
 ---
 
+![Mount](obj-mount-example.png){: width="50%" height="50%"}
+
 # Mount
 
 The object's pivot point is its own location on the map which tokens can
 move to.
 
--   Position X
+####  Position X
 
--   Position Y
+####  Position Y

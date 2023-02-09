@@ -15,7 +15,7 @@ on their name or folder. Clicking on the folder icon will create a new
 folder for your objects. Clicking on the map icon will allow you to
 import a map image as an object.
 
-<!-- <img src="Images/object-chest1.png" style="width:28em" /> -->
+![Object Panel](obj-panel.png)
 
 ## Placing Objects
 
@@ -42,5 +42,4 @@ of the window, you can adjust all of the settings associated with the
 selected property. All objects will have a **Core** property, though
 there are many others you may choose to add.
 
-
-<!-- <img src="Images/object-chest-properties.png" style="width:42em" /> -->
+![Object Properties](obj-chest-properties.png)

@@ -7,22 +7,24 @@ has_children: true
 nav_order: 17
 ---
 
+![Text](obj-text-example.png){: width="50%" height="50%"}
+
 # Text
 
 This object displays text.
 
--   Text
+####  Text
 
--   Font
+####  Font
 
--   Font Size
+####  Font Size
 
--   Bold
+####  Bold
 
--   Italics
+####  Italics
 
--   Color
+####  Color
 
--   Xoffset
+####  Xoffset
 
--   Yoffset
+####  Yoffset

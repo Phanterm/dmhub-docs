@@ -7,20 +7,22 @@ has_children: true
 nav_order: 3
 ---
 
+![Appearance](obj-appearance-example.png){: width="50%" height="50%"}
+
 # Appearance
 
 Has custom control over the appearance of this object.
 
--   Image Number
+####  Image Number
 
--   Image Swaps
+####  Image Swaps
 
--   Hue
+####  Hue
 
--   Saturation
+####  Saturation
 
--   Brightness
+####  Brightness
 
--   Opacity
+####  Opacity
 
--   Additive Blend
+####  Additive Blend

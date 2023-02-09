@@ -12,6 +12,6 @@ nav_order: 13
 This object has an image associated with it which can be viewed by
 nearby players.
 
--   Link Name
+####  Link Name
 
--   Locked
+####  Locked

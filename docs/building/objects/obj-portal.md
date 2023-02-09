@@ -11,6 +11,6 @@ nav_order: 12
 
 Allows creatures to move to a linked portal at a different location.
 
--   Link Name
+####  Link Name
 
--   Locked
+####  Locked

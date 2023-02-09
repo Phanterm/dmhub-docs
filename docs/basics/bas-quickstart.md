@@ -36,6 +36,9 @@ Click the **Register** button that pops up in order to complete registration. We
 4. Enter the name of your game. You can also choose cover art, modify the game description, and set a custom password, if you desire.
 5. When you're finished, click **Play** to start!
 
+
+![Starting Screen](bas-quickstart-view.png){: width="50%" height="50%"}
+
 ## 4. Main Navigation
 
 Upon creating a new game, the editor will generously provide you
@@ -76,7 +79,7 @@ When enabled, snaps the placement and movement of objects to the grid.
 
 Reveals tokens which would otherwise be invisible.
 
-<!-- <!-- <img src="Images/pathfinding.png" style="width:12cm" /> -->
+![Pathfinding Overlay](bas-quickstart-pathfinding.png){: width="50%" height="50%"}
 
 [DMHub website]: https://dmhubapp.com/
 [itch.io]: https://dmlabs.itch.io/dmhub

@@ -11,14 +11,14 @@ nav_order: 5
 
 Can be pressed to trigger events.
 
--   Value
+####  Value
 
--   Max Value
+####  Max Value
 
--   Reset At Max
+####  Reset At Max
 
--   Transition Time
+####  Transition Time
 
--   Locked
+####  Locked
 
--   Image Swap
+####  Image Swap

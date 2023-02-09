@@ -92,6 +92,9 @@ side-bar {
 	font-family: "Lato-Black", sans-serif !important;
 }
 
+// Callouts
+//USAGE: {: .callout }
+// use > at the beginning of each following line to force line breaks.
 p.warning::before {
   content: "Warning!";
   background-image: url(/assets/images/gob_angry.png);
@@ -251,7 +254,25 @@ blockquote.tip::before {
   margin-bottom: 1em;
 }
 
+
+// Side Nav
 .side-bar { z-index: 0; display: flex; flex-wrap: wrap; background-color: #27262b; }
+
+// Video Player
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0; 
+  }
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  }
+
 
 // Colors
 $goblin-gold: #e3cfa4;

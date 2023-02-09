@@ -7,34 +7,36 @@ has_children: true
 nav_order: 8
 ---
 
+![Light](obj-light-example.png){: width="50%" height="50%"}
+
 # Light
 
 Objects with this property emit light.
 
--   Color
+####  Color
 
--   Style
+####  Style
 
--   Off Appearance
+####  Off Appearance
 
--   On Appearance
+####  On Appearance
 
--   Intensity
+####  Intensity
 
--   Magical
+####  Magical
 
--   Radius
+####  Radius
 
--   Angle
+####  Angle
 
--   Shadow Softness
+####  Shadow Softness
 
--   Casts Shadows
+####  Casts Shadows
 
--   Height
+####  Height
 
--   Flicker
+####  Flicker
 
--   Light On
+####  Light On
 
--   Locked
+####  Locked

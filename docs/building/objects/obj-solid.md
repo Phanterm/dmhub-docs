@@ -7,18 +7,20 @@ has_children: true
 nav_order: 14
 ---
 
+![Solid Property](obj-solid-example.png){: width="50%" height="50%"}
+
 # Solid
 
-Objects with this property block movement through them.
+Objects with this property can block movement, vision, and light through them. They can also allow objects to provide cover and be destroyed by setting their hit point value.
 
--   Block Movement
+####  Block Movement
 
--   Block Light
+####  Block Light
 
--   Block Vision
+####  Block Vision
 
--   Cover
+####  Cover
 
--   Max Points
+####  Max Points
 
--   Manually Set Outline
+####  Manually Set Outline

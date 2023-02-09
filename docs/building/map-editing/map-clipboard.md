@@ -14,16 +14,12 @@ to save certain clusters of objects and use them again, even on other
 maps. Enter the **Clipboard** panel.
 
 
-<!--<!-- <img src="Images/property-clipboard-1.png" style="width:32em" /> -->
+![Clipboard Panel](map-clipboard-panel.png){: width="50%" height="50%"}
 
 
 With the clipboard, you can select both objects and building tiles,
 copying and even saving them for later. Afterward, you can place your
 clip just like you would an individual object.
-
-
-<!--<p><!-- <img src="Images/clipboard-2.png" style="width:18em" alt="image" /> -->
-<!--<!-- <img src="Images/clipboard-3.png" style="width:18em" alt="image" /> -->
 
 
 ### Creating a Clip
@@ -32,13 +28,11 @@ By using one of the available tools from the panel, you can select
 building tiles, walls, and objects. The selection outline is represented
 by a dotted blue border.
 
-
+![Clipboard Selection](map-clipboard-select.png){: width="50%" height="50%"}
 
 After you've made your selection, on the clipboard panel, click
 **Copy**. You should see the selected clip appear in the panel. If you'd
 like to make a different selection, click **Clear**.
-
-<!-- ![image](Images/clipboard-select.png){width="\\linewidth"} -->
 
 To save your clip, click on the downward pointing arrow at the bottom of
 the panel. From here, you should see a folder icon. Click it and create
@@ -54,11 +48,7 @@ amount of time. Building one room in an inn suddenly means having every
 room ready to place.
 
 
-<!-- <img src="Images/clipboard-4.png" /> -->
-
-
-
-<!-- <img src="Images/clipboard-5.png" /> -->
+![Clipboard Result](map-clipboard-result.png){: width="50%" height="50%"}
 
 
 {: .tip }

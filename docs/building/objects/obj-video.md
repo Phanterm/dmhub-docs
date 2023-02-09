@@ -11,6 +11,6 @@ nav_order: 18
 
 Has custom control of the video played for this object.
 
--   Playback Speed
+####  Playback Speed
 
--   Looping
+####  Looping

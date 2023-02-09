@@ -12,26 +12,26 @@ nav_order: 1
 The object's basic properties. Every object will have a Core property by
 default. It cannot be removed.
 
--   Name
+####  Name
 
--   Rotation
+####  Rotation
 
--   Scale
+####  Scale
 
--   Pivot X
+####  Pivot X
 
--   Pivot Y
+####  Pivot Y
 
--   Sublayer
+####  Sublayer
 
--   Sprite Invisible to Players
+####  Sprite Invisible to Players
 
--   Height
+####  Height
 
--   Has Shadow
+####  Has Shadow
 
--   Shadow Length
+####  Shadow Length
 
--   Shadow Offset
+####  Shadow Offset
 
--   Shadow Scale
+####  Shadow Scale
