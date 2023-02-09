@@ -11,7 +11,7 @@ Next, once you have a local copy of the repo, you will be working out of two fol
 - Basics: For basic operations like keyboard shortcuts.
 - Tutorials: For guides on specific, popular processes handled by DMHub, i.e. "How to make Perfect Stairs".
 - Players & DMs: A comprehensive high-level section for various parts of DMHub. For players and DMs.
-- Building in DMHub: Pertaining to map editing, high-level compendium work, and asset creation. For artists, writers, and media content creators.
+- Creating in DMHub: Pertaining to map editing, high-level compendium work, and asset creation. For artists, writers, and media content creators.
 - Development: Pertaining to DMHub's interface customization and API. For modders and programmers.
 - Resources: Help, FAQs, tools, links, et cetera.
 
