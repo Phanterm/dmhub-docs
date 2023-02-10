@@ -2,7 +2,7 @@
 
 # How to Use
 
-First off, this documentation uses the [Just the Docs] template for Jekyll. If you're unfamiliar with Jekyll and static site generation, it is **strongly recommended** that you first go to [their website] to learn more about it.
+This documentation uses the [Just the Docs] template for Jekyll. If you're unfamiliar with Jekyll and static site generation, it is **strongly recommended** that you first go to [their website] to learn more about it.
 
 Next, once you have a local copy of the repo, you will be working out of two folders in the root directory: `assets\` and `docs\`.
 
