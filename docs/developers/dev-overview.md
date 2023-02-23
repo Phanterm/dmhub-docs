@@ -104,7 +104,6 @@ return gui.Panel{
 }
 ```
 
-
 See [[Styles]] for documentation on how to use styles.
 
 *For the remainder of this page, some examples may not include styling information and just concentrate on logic*.
