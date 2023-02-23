@@ -240,3 +240,5 @@ The way we achieve this is by using `alter`. This is best explained with some ex
 The text in the quotes accepts some special [Goblin Script] which recognizes `count` (the number of dice), `faces` (the number of faces on the dice) and `modifier` (the constant number added), as well as `index` (which set of dice within the roll we are referring to). The Goblin Script is run for each type of dice in the roll, and replaces the dice sets.
 
 By using `alter`, we can make powerful alterations to dice rolls that aren't possible by any other means.
+
+[Goblin Script]: /docs/building/goblinscript/gob-overview.html
