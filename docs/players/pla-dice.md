@@ -246,4 +246,3 @@ The text in the quotes accepts some special [Goblin Script] which recognizes `co
 By using `alter`, we can make powerful alterations to dice rolls that aren't possible by any other means.
 
 [Goblin Script]: /docs/building/goblinscript/gob-overview.html
-=======
