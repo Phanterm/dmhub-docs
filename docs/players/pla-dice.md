@@ -13,6 +13,10 @@ Basic dice rolling follows a format familiar to tabletop role playing games:
 
 `1d6`, `3d6+1`, `1d20`, `1d20+1d4+1` are all valid rolls.
 
+## Multiplying and Dividing Rolls
+
+Multiplication and division of dice rolls is slightly eclectic. Any multiplication or division will apply to the entire roll. For instance, `3d6 + 2d8 * 4` will roll 3d6 and 2d8 and multiply the total by 4.
+
 ## Abbreviating Rolls
 
 Generally if you only type part of a word, DMHub will guess what you mean. So if you type
@@ -242,3 +246,4 @@ The text in the quotes accepts some special [Goblin Script] which recognizes `co
 By using `alter`, we can make powerful alterations to dice rolls that aren't possible by any other means.
 
 [Goblin Script]: /docs/building/goblinscript/gob-overview.html
+=======
