@@ -11,7 +11,7 @@ nav_order: 14
 
 # Solid
 
-Objects with this property can block movement, vision, and light through them. They can also allow objects to provide cover and be destroyed by setting their hit point value.
+Objects with this property can block movement, vision, and light through them. They can also allow objects to provide cover.
 
 ####  Block Movement
 
