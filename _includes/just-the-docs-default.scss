@@ -1,5 +1,6 @@
 ---
 ---
+
 {% if site.color_scheme and site.color_scheme != "nil" %}
   {% assign color_scheme = site.color_scheme %}
 {% else %}

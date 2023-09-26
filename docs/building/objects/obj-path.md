@@ -13,6 +13,9 @@ nav_order: 11
 
 Objects with this property move along a path you specify.
 
+{: .note }
+To pause animations, press F6. This also resets objects to the start of their animation or path.
+
 ####  Paths
 
 ####  Random Merge

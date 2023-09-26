@@ -14,9 +14,9 @@ module Jekyll
         type = input_parts[1].strip
         description = input_parts[2].strip
         code = input_parts[3].strip
-  
-        output = "<div class='api-leaf-box'>"
+        
         output += "<div class='name'>#{name}</div>"
+        output = "<div class='api-leaf-box'>"
         output += "<div class='type'>#{type}</div>"
         output += "<div class='description'>#{description}</div>"
         output += "<pre><code>#{code}</code></pre>" if code
@@ -27,4 +27,4 @@ module Jekyll
     end
   end
   
-  Liquid::Template.register_tag('api-leaf', Jekyll::ApiLeafTag)
+  Liquid::Template.register_tag('apileaf', Jekyll::ApiLeafTag)

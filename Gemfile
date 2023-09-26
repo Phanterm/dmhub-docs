@@ -14,4 +14,4 @@ gem "jekyll-video-tag"
 
 gem "jekyll-youtube"
 
-# gem "api-leaf", "0.0.1"
+gem "api-leaf", "0.0.1"
